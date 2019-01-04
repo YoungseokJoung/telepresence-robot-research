@@ -1,0 +1,4 @@
+<launch>
+	<node pkg="center_bridge" name="aws_center_bridge_node" type="aws_center_bridge_node"/>
+	<node pkg="center_bridge" name="center_skeleton_bridge_node" type="center_skeleton_bridge_node"/>
+</launch>
